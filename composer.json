@@ -1,0 +1,31 @@
+{
+    "name": "indigophp/fuel-skeleton",
+    "type": "fuel-package",
+    "description": "",
+    "license": "MIT",
+    "keywords": [""],
+    "homepage": "https://indigophp.com",
+    "authors": [
+        {
+            "name": "Márk Sági-Kazár",
+            "email": "mark.sagikazar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Indigo\\Skeleton\\": "classes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Indigo\\Skeleton\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "installer-name": "sms"
+    },
+    "minimum-stability": "dev"
+}
