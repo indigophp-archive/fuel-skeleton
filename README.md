@@ -1,4 +1,9 @@
-# Indigo Fuel Skeleton
+# Fuel Skeleton
+
+[![Build Status](https://travis-ci.org/indigophp/fuel-skeleton.svg?branch=develop)](https://travis-ci.org/indigophp/fuel-skeleton)
+[![Latest Stable Version](https://poser.pugx.org/indigophp/fuel-skeleton/v/stable.png)](https://packagist.org/packages/indigophp/fuel-skeleton)
+[![Total Downloads](https://poser.pugx.org/indigophp/fuel-skeleton/downloads.png)](https://packagist.org/packages/indigophp/fuel-skeleton)
+[![License](https://poser.pugx.org/indigophp/fuel-skeleton/license.png)](https://packagist.org/packages/indigophp/fuel-skeleton)
 
 **Skeleton description.**
 
@@ -22,7 +27,7 @@ Via Composer
 ## Testing
 
 ``` bash
-$ phpunit
+$ codecept run
 ```
 
 
