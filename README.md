@@ -5,7 +5,7 @@
 [![Total Downloads](https://poser.pugx.org/indigophp/fuel-skeleton/downloads.png)](https://packagist.org/packages/indigophp/fuel-skeleton)
 [![License](https://poser.pugx.org/indigophp/fuel-skeleton/license.png)](https://packagist.org/packages/indigophp/fuel-skeleton)
 
-**Skeleton description.**
+**This package is a wrapper around [indigophp/skeleton](https://github.com/indigophp/skeleton) package.**
 
 
 ## Install
