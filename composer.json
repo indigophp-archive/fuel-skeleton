@@ -12,11 +12,10 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
         "composer/installers": "~1.0"
     },
     "require-dev": {
-        "codeception/codeception": "~1.8.0"
+        "codeception/codeception": "~2.0.0"
     },
     "autoload": {
         "psr-4": {
@@ -26,5 +25,6 @@
     "extra": {
         "installer-name": "skeleton"
     },
+    "prefer-stable": true,
     "minimum-stability": "dev"
 }
