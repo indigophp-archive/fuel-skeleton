@@ -3,19 +3,12 @@ php:
   - 5.4
   - 5.5
 
-script:
-  - cd /tmp/fuel/fuel/packages/skeleton/
-  - vendor/bin/codecept run --coverage-xml
+script: vendor/bin/codecept run --coverage-xml
 
 before_script:
-  - curl get.fuelphp.com/oil | sh
-  - cd /tmp
-  - oil create fuel
-  - cp -r $TRAVIS_BUILD_DIR fuel/fuel/packages/skeleton/
-  - cd fuel/fuel/packages/skeleton/
-  - composer install
   - wget https://scrutinizer-ci.com/ocular.phar
+  - composer install
+  - composer create-project --prefer-source fuel/fuel:dev-1.8/develop /tmp/fuel
 
 after_script:
-  - cd /tmp/fuel/fuel/packages/skeleton/
   - php ocular.phar code-coverage:upload --format=php-clover tests/_output/coverage.xml
