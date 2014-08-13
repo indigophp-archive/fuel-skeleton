@@ -15,7 +15,8 @@
         "composer/installers": "~1.0"
     },
     "require-dev": {
-        "codeception/codeception": "~2.0.0"
+        "codeception/codeception": "~2.0.0",
+        "indigophp/codeception-fuel-module": "dev-develop"
     },
     "autoload": {
         "psr-4": {
